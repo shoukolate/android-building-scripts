@@ -25,12 +25,12 @@ cd ~/los/device/xiaomi/
 git clone https://github.com/shoukolate/android_device_xiaomi_sdm660-common
 mv android_device_xiaomi_sdm660-common sdm660-common
 
-# sync kernel.lnx.4.4.r38-rel-wifi-safetynet-bypass branch of kernel tree
+# sync safetynet-bypass branch of kernel tree
 
 cd ~/los/kernel/
 mkdir xiaomi
 cd xiaomi
-git clone https://github.com/shoukolate/android_kernel_xiaomi_sdm660 -b kernel.lnx.4.4.r38-rel-wifi-safetynet-bypass
+git clone https://github.com/shoukolate/android_kernel_xiaomi_sdm660 -b safetynet-bypass
 mv android_kernel_xiaomi_sdm660 sdm660
 
 # sync wayne vendor tree
