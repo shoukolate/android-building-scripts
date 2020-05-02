@@ -24,7 +24,7 @@ git fetch && git pull
 cd ~/floko/kernel/xiaomi/sdm660
 
 git fetch origin
-git reset --hard origin/kernel.lnx.4.4.r38-rel-wifi-safetynet-bypass
+git reset --hard origin/safetynet-bypass
 git fetch && git pull
 
 # Update vendor tree for sdm660-common
